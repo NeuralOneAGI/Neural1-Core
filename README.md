@@ -1,34 +1,43 @@
-
 # Neural 1 Core
 
-> "The First to Think."
+Neural 1 Core is the foundational reasoning engine powering all cognitive systems within the Neural 1 architecture. It serves as the central loop for planning, decision-making, memory integration, and self-directed learning.
 
-This repository contains the foundational architecture for **Neural 1 (N1)** — an artificial general intelligence system designed to reason, learn, and self-improve across domains.
+## Architecture Overview
 
-### 🌐 Overview
-Neural 1 Core is not just a chatbot. It is an evolving cognitive engine with:
+The system is designed as a modular, extensible cognitive framework capable of:
 
-- Modular reasoning and planning
-- Memory architecture (short + long-term)
-- Reflection and self-correction
-- Tool use capabilities
-- Multi-agent integration
+- Generalized task execution across domains
+- Integration with memory and tool systems
+- Dynamic prompting and multi-agent planning
+- Introspective feedback and self-correction
 
-### 🧩 Architecture (Coming Soon)
-- `n1_engine.py` – Main reasoning loop
-- `planner/` – Goal management and decision logic
-- `memory/` – Vector & symbolic memory systems
-- `tools/` – External tool interface (e.g., code interpreter, web search)
-- `core/` – Prompting + inner voice
+## Core Modules (Planned)
 
-### 🛠️ Tech Stack
+| Module               | Function                                             |
+|----------------------|------------------------------------------------------|
+| `n1_engine.py`       | Main reasoning and orchestration loop                |
+| `planner/`           | Goal decomposition, prioritization, and task routing |
+| `core/`              | Prompt construction, response formatting, system control |
+| `tools/`             | Interfaces to external utilities (e.g., REPL, web search) |
+| `hooks/`             | Self-reflection, output evaluation, and meta-learning |
+| `interfaces/`        | Communication bridge to agents and memory            |
+
+## Key Capabilities
+
+- Agentic decision-making
+- Tool-augmented reasoning
+- Memory context injection
+- Prompt-driven cognition
+- Modular and testable architecture
+
+## Technologies
+
 - Python 3.11+
 - PyTorch
 - LangChain
-- FAISS or ChromaDB
-- Open-source LLM (LLaMA3 / Mixtral / Gemma)
+- FAISS or Chroma for embedding memory
+- Custom prompt interfaces and vector routing
 
----
+## Status
 
-### 📍 Status: Early Development
-Check `neural1-docs` for the roadmap, architecture plans, and vision document.
+Neural 1 Core is in early prototyping. All modules are under active development. For design documentation and roadmap, refer to the `neural1-docs` repository.
